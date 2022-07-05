@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #101d40;
+  color: #fff;
+}
+
+.wrapper {
+  width: 350px;
+  overflow: hidden;
+  margin: 30px auto;
+  background-color: #101d40;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-image {
+  width: 350px;
+  height: 330px;
+  overflow: hidden;
+  background-color: rgb(173, 193, 214);
+  transition: all 0.3s linear;
+}
+
+.card-image img {
+  width: 350px;
+}
+
+.card-details {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.card-details h4 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #32b8cb;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+}
+
+.card-details h2 {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.card-details p {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.card-details .price {
+  font-size: 2.2em;
+  color: #32b8cb;
+}
+
+.card-details .price span {
+  color: tomato;
+  text-decoration: line-through;
+  font-size: 0.6em;
+  font-weight: 600;
+}
+
+.card-details a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #32b8cb;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+.card-details a:hover {
+  background-color: #268e9c;
+}
+
+.card-details a:active {
+  outline: 5px solid rgba(38, 142, 156, 0.5);
+}
+
+.card-details .trend {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #32b8cb;
+  padding: 5px 15px;
+  border-radius: 0 0 10px 0;
+}
