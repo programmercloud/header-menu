@@ -4,22 +4,30 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dark Product Card</title>
+    <title>Pure CSS Header Menu</title>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="wrapper">
-      <div class="card-image">
-        <img src="img/nike.jfif" alt="Nike" />
+    <nav class="nav">
+      <input type="checkbox" class="nav__cb" id="menu-cb" />
+      <div class="nav__content">
+        <ul class="nav__items">
+          <li class="nav__item">
+            <span class="nav__item-text"> Home </span>
+          </li>
+          <li class="nav__item">
+            <span class="nav__item-text"> Works </span>
+          </li>
+          <li class="nav__item">
+            <span class="nav__item-text"> About </span>
+          </li>
+          <li class="nav__item">
+            <span class="nav__item-text"> Contact </span>
+          </li>
+        </ul>
       </div>
-      <div class="card-details">
-        <h4>Men's Footware</h4>
-        <h2>Nike Air Max</h2>
-        <p class="price">$48 <span>$62</span></p>
-        <a href="#">Buy Now</a>
-        <p class="trend">Trending #1</p>
-      </div>
-    </div>
+      <label class="nav__btn" for="menu-cb"></label>
+    </nav>
   </body>
 </html>
